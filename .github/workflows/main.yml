@@ -1,3 +1,9 @@
+name: Trigger s3 copy
+
+on:
+  push:
+    branches:
+    - '*'
 
 jobs:
   deploy:
